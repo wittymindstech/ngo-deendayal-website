@@ -1,0 +1,312 @@
+/* ==========================================================================
+   Deen Dyaal Sewa Bharti - Responsive Stylesheet
+   Breakpoints: 1280px, 1024px, 768px, 480px, 390px, 360px
+   ========================================================================== */
+
+/* Large Screens (max-width: 1280px) */
+@media (max-width: 1280px) {
+  .hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .about-grid, .contact-grid {
+    gap: 2.5rem;
+  }
+}
+
+/* Desktop to Tablet Transition (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+
+  .education-hero-banner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .education-features-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .social-work-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .approach-timeline {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .approach-timeline::before {
+    display: none;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .documents-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .financial-timeline {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+}
+
+/* Tablet & Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .top-bar-contact {
+    display: none;
+  }
+
+  .top-bar .container {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hamburger-btn {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 4.8rem;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    gap: 1.25rem;
+    box-shadow: var(--shadow-xl);
+    border-bottom: 2px solid var(--color-primary);
+    transform: translateY(-150%);
+    opacity: 0;
+    pointer-events: none;
+    transition: all var(--transition-normal);
+    z-index: 99;
+  }
+
+  .nav-menu.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.6rem 0;
+  }
+
+  .hero-section {
+    min-height: 80vh;
+    padding: 4rem 0 3rem;
+  }
+
+  .hero-title {
+    font-size: 2.1rem;
+  }
+
+  .hero-description {
+    font-size: 1.05rem;
+  }
+
+  .hero-stats-banner {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .impact-stats-section {
+    margin-top: -2rem;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image-wrapper {
+    order: -1;
+  }
+
+  .about-badge-card {
+    position: static;
+    margin-top: 1rem;
+    border-radius: var(--radius-md);
+  }
+
+  .about-image-main img {
+    height: 320px;
+  }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .financial-timeline {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form-card {
+    padding: 1.75rem 1.25rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.85rem;
+  }
+
+  .cta-title {
+    font-size: 1.9rem;
+  }
+
+  .lightbox-body {
+    min-height: 280px;
+  }
+
+  .lightbox-nav-btn {
+    width: 38px;
+    height: 38px;
+  }
+
+  .lightbox-prev-btn {
+    left: 0.5rem;
+  }
+
+  .lightbox-next-btn {
+    right: 0.5rem;
+  }
+}
+
+/* Mobile Screens (max-width: 480px) */
+@media (max-width: 480px) {
+  html {
+    font-size: 15px;
+  }
+
+  .container {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+
+  .section-padding {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .brand-title-hi {
+    font-size: 1.05rem;
+  }
+
+  .brand-subtitle-en {
+    font-size: 0.62rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .social-work-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .approach-timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-thumb-wrap {
+    height: 220px;
+  }
+
+  .documents-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .financial-timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .about-pillars {
+    grid-template-columns: 1fr;
+  }
+
+  .education-hero-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .edu-mini-img {
+    height: 160px;
+  }
+
+  .cta-title {
+    font-size: 1.6rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cta-buttons .btn {
+    width: 100%;
+  }
+
+  .phone-action-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Small Handhelds (max-width: 360px) */
+@media (max-width: 360px) {
+  .hero-title {
+    font-size: 1.6rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.92rem;
+  }
+}
