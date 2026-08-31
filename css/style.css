@@ -340,6 +340,17 @@ ul, ol {
   height: 24px;
 }
 
+.brand-logo-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 3px 8px rgba(180, 83, 9, 0.25);
+  border: 2px solid var(--color-accent);
+  background-color: #FFFFFF;
+  flex-shrink: 0;
+}
+
 .brand-text {
   display: flex;
   flex-direction: column;
@@ -2093,3 +2104,229 @@ textarea.form-control {
   user-select: none;
   pointer-events: none;
 }
+
+/* Footer Brand Header with Logo */
+.footer-brand-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-logo-img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 2px solid var(--color-accent);
+  background-color: #FFFFFF;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ==========================================================================
+   Donor Gratitude & Marriage Aid Initiative Showcase Box
+   ========================================================================== */
+.gratitude-showcase-box {
+  margin-top: 3.5rem;
+  background: linear-gradient(135deg, #FFFDF8 0%, #FEF3C7 100%);
+  border: 2px solid var(--color-accent);
+  border-radius: var(--radius-xl);
+  padding: 2.5rem;
+  box-shadow: var(--shadow-lg);
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.gratitude-showcase-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--color-primary), var(--color-accent));
+}
+
+.gratitude-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-secondary);
+  color: var(--color-text-white);
+  padding: 0.35rem 0.9rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.gratitude-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  line-height: 1.35;
+  margin-bottom: 1rem;
+}
+
+.gratitude-message {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--color-text-main);
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius-md);
+  border: 1px dashed var(--color-accent);
+  font-weight: 500;
+}
+
+.gratitude-images-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.85rem;
+}
+
+.gratitude-img-wrap {
+  position: relative;
+  height: 160px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  border: 2px solid #FFFFFF;
+  transition: all var(--transition-fast);
+}
+
+.gratitude-img-wrap:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
+}
+
+.gratitude-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.gratitude-img-wrap:hover img {
+  transform: scale(1.08);
+}
+
+.gratitude-img-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.gratitude-img-wrap:hover .gratitude-img-overlay {
+  opacity: 1;
+}
+
+/* ==========================================================================
+   Bank Details Card for Sahyog / Donation
+   ========================================================================== */
+.bank-details-card {
+  background: linear-gradient(135deg, #FFFDF8 0%, #FEF8ED 100%) !important;
+  border: 2px solid var(--color-accent) !important;
+  box-shadow: var(--shadow-md);
+}
+
+.bank-icon {
+  background-color: var(--color-secondary) !important;
+  color: var(--color-accent-light) !important;
+}
+
+.bank-details-body {
+  width: 100%;
+}
+
+.bank-details-body h4 {
+  font-size: 1.2rem;
+  color: var(--color-secondary);
+  margin-bottom: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bank-info-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6rem;
+  background-color: #FFFFFF;
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  margin-bottom: 0.85rem;
+}
+
+.bank-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px dashed var(--color-border-light);
+}
+
+.bank-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.bank-label {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.bank-val {
+  font-size: 1rem;
+  color: var(--color-secondary);
+}
+
+.mono-val {
+  font-family: var(--font-english);
+  letter-spacing: 0.04em;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.bank-note-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--color-primary-subtle);
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  font-size: 0.92rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(180, 83, 9, 0.25);
+  margin-bottom: 0.75rem;
+}
+
+.tax-exemption-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  background-color: var(--color-secondary-subtle);
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-pill);
+}
+
