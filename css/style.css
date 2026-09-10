@@ -676,7 +676,7 @@ ul, ol {
   padding: 0.85rem 0;
 }
 
-.about-history summary {
+.about-history-details summary {
   color: var(--color-primary-dark);
   cursor: pointer;
   font-weight: 700;
@@ -684,23 +684,35 @@ ul, ol {
   width: fit-content;
 }
 
-.about-history summary::-webkit-details-marker {
+.about-history-details summary::-webkit-details-marker {
   display: none;
 }
 
-.about-history summary span {
+.about-history-details summary span {
   display: inline-block;
   margin-left: 0.35rem;
   transition: transform var(--transition-fast);
 }
 
-.about-history[open] summary span {
+.about-history-details[open] summary span {
   transform: rotate(90deg);
 }
 
-.about-history-content {
+.about-history-content,
+.about-history-details {
   color: var(--color-text-muted);
+}
+
+.about-history-details {
+  padding-top: 0.85rem;
+}
+
+.about-history-content {
   padding-top: 1.25rem;
+}
+
+.about-history > .about-history-content {
+  padding-top: 0;
 }
 
 .about-history-content h3 {
