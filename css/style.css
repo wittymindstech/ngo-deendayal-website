@@ -707,6 +707,10 @@ ul, ol {
   padding-top: 0.85rem;
 }
 
+.about-history-details summary {
+  margin-top: 0.25rem;
+}
+
 .about-history-content {
   padding-top: 1.25rem;
 }

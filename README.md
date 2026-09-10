@@ -8,7 +8,7 @@ A complete, professional, modern, authentic, and trustworthy NGO website for **D
 - **Organization Name:** Deen Dyaal Sewa Bharti (दीन दयाल सेवा भारती)
 - **Central Motto:** *"शिक्षा के साथ संस्कार, सेवा के साथ समाज निर्माण"*
 - **Secondary Mission:** *"गरीब और जरूरतमंद परिवारों के बच्चों को शिक्षा, संस्कार और बेहतर भविष्य की दिशा देना।"*
-- **Current Student Impact:** **280+ students** receiving education, character development, discipline, and cultural exposure.
+- **Current Student Impact:** **2500+ students** receiving education, character development, discipline, and cultural exposure.
 - **Location:** 731-A, Hanspuram, Awas Vikas Colony, Hamirpur Road, Kanpur, Uttar Pradesh, India.
 - **Contact Numbers:** `8574778211`, `9214251359` (with direct click-to-call and WhatsApp chat integration).
 
@@ -56,9 +56,9 @@ ngo-deendayal-website/
 1. **Top Announcement Bar:** Compact contact bar with student impact highlight and quick call links.
 2. **Sticky Navigation Bar:** Custom Diya/Education SVG emblem, branding, desktop links, mobile hamburger drawer, and "सहयोग करें" CTA.
 3. **Hero Section:** High-contrast background overlay with authentic photo, powerful Hindi headline, and dual CTAs.
-4. **Impact Statistics:** 4 animated counters displaying 280+ students, education + sanskar, community service, and Kanpur UP.
+4. **Impact Statistics:** 4 animated counters displaying 2500+ students, education + sanskar, community service, and Kanpur UP.
 5. **About Section:** Genuine story, core purpose highlight card (*हमारा उद्देश्य*), and 4 operational pillars.
-6. **Education & Sanskar (Centerpiece):** In-depth showcase of the 280-student initiative, cultural sanskar (Matru-Pitru Pujan, Aarti, Charan Sparsh), and 3 pillars (शिक्षा, संस्कार, व्यक्तित्व विकास).
+6. **Education & Sanskar (Centerpiece):** In-depth showcase of the 2500-student initiative, cultural sanskar (Matru-Pitru Pujan, Aarti, Charan Sparsh), and 3 pillars (शिक्षा, संस्कार, व्यक्तित्व विकास).
 7. **Our Social Service:** 6 comprehensive cards (शिक्षा सहायता, बाढ़ एवं आपदा राहत, स्वास्थ्य सेवा, शीतकालीन कंबल वितरण, स्वच्छता अभियान, सामुदायिक खाद्यान्न सहायता).
 8. **Our Approach:** 4-step horizontal process timeline (01 पहचान, 02 सहयोग, 03 संस्कार, 04 सशक्त भविष्य).
 9. **Interactive Photo Gallery:** Filterable grid with accessible lightbox for education and community activities.
