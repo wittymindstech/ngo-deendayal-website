@@ -237,6 +237,54 @@
     font-size: 1.8rem;
   }
 
+  .latest-news-media {
+    overflow: visible;
+  }
+
+  .latest-news-main-image {
+    height: 240px;
+  }
+
+  .latest-news-thumbnails {
+    padding: 0.65rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .latest-news-videos {
+    padding: 0.85rem 0.65rem 0.95rem;
+  }
+
+  .latest-news-videos-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .latest-news-video-strip {
+    gap: 0.6rem;
+    margin-right: -0.65rem;
+    padding-right: 0.65rem;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+
+  .latest-news-video-item {
+    width: 168px;
+    flex-basis: 168px;
+    scroll-snap-align: start;
+  }
+
+  .latest-news-video-item video {
+    width: 168px;
+    height: 100px;
+  }
+
+  .latest-news-card .news-footer-action {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
   .hero-cta-group {
     flex-direction: column;
     width: 100%;
