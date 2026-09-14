@@ -162,6 +162,18 @@
     grid-template-columns: 1fr;
   }
 
+  .latest-news-card {
+    grid-column: auto;
+  }
+
+  .latest-news-main-image {
+    height: 300px;
+  }
+
+  .latest-news-card .news-content {
+    padding: 1.5rem;
+  }
+
   .financial-timeline {
     grid-template-columns: repeat(2, 1fr);
   }
